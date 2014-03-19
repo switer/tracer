@@ -9,7 +9,7 @@ bower install tracer --save
 ```
 
 ## How to use ?
-```javascrip
+```javascript
 <script src="bower_components/tracer/index.js"></script>
 <script>
     function outer () {
