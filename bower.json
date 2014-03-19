@@ -1,0 +1,22 @@
+{
+  "name": "tracer",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/switer/tracer",
+  "authors": [
+    "switer <guankaishe@gmail.com>"
+  ],
+  "description": "Simple code tracer, use exception stack info to implemence.",
+  "keywords": [
+    "stack",
+    "trace"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
