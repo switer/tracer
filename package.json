@@ -1,0 +1,28 @@
+{
+  "name": "tracer.js",
+  "version": "0.0.0",
+  "description": "Simple code tracer, use exception stack info to implemence.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/switer/tracer.git"
+  },
+  "keywords": [
+    "stack",
+    "trace",
+    "nodejs",
+    "browser"
+  ],
+  "author": "switer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/switer/tracer/issues"
+  },
+  "homepage": "https://github.com/switer/tracer"
+}
