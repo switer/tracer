@@ -1,7 +1,14 @@
 !function() {
     'use strict;'
 
-    var debug = console.debug || function () {console.log.apply(console, arguments)};
+    var debug = function () {
+        if (console.debug) {
+            console.debug.apply(console, arguments);
+        }
+        else {
+            console.log.apply(console, arguments)
+        }
+    };
 
     /**
      *   trace console use error stack tracing or console.log trace
@@ -42,4 +49,5 @@
     } else {
         window.tracer = traceConsole;
     }
+
 }();
